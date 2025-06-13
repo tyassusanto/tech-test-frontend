@@ -31,7 +31,7 @@ const LoginForm = () => {
     }, [user, navigate]);
 
     useEffect(() => {
-        console.log("Error state:", error);
+        console.error("Error state:", error);
     }, [error]);
 
 
