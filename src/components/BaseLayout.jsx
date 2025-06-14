@@ -47,6 +47,8 @@ const BaseLayout = ({ children }) => {
               navigate('/');
             } else if (key === '3') {
               navigate('/master-gate');
+            } else if (key === '2') {
+              navigate('/laporan-perhari')
             }
           }}
           items={[
@@ -54,6 +56,14 @@ const BaseLayout = ({ children }) => {
               key: '1',
               icon: <DashboardOutlined />,
               label: 'Dashboard',
+            },
+            {
+              key: 'sub1',
+              icon: <DatabaseOutlined />,
+              label: 'Laporan Lalin',
+              children: [
+                { key: '2', label: 'Laporan Per Hari' },
+              ]
             },
             {
               key: '3',
