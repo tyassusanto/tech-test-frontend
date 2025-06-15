@@ -10,7 +10,6 @@ export const fetchTraffic = createAsyncThunk(
 
             const url = `/lalins${params.toString() ? `?${params.toString()}` : ''}`;
             const response = await apiClient.get(url);
-
             return response.data.data.rows.rows;
         } catch (error) {
             return thunkAPI.rejectWithValue(error.response?.data || error.message);
