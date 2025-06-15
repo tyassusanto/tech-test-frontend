@@ -1,12 +1,16 @@
-# React + Vite
+# Technical Test Frontend React JS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Halaman dan FItur
 
-Currently, two official plugins are available:
+### Halaman dan FItur
+1. Halaman Login
+ - Menampilkan input username dan password untuk login ke dalam aplikasi
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. 
 
-## Expanding the ESLint configuration
+3. Halaman Master Data Gerbang
+ - Menampilkan table data gerbang
+ - Fitur CRUD data gerbang
+ - Fitur search dan pagination
+  Note : Fitur pagination menggunakan fungsi pagination dari library frontend dikarenakan api tidak menyediakan parameter /  fungsi pagination
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
