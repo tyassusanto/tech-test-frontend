@@ -52,7 +52,7 @@ const LoginForm = () => {
                 </Form.Item>
 
                 {error?.message && (
-                    <Text type="danger" className="block mb-3">
+                    <Text type="danger" className="block mb-3 text-center">
                         {error.message}
                     </Text>
                 )}
