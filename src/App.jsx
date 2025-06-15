@@ -4,6 +4,7 @@ import Public from './utils/Public'
 import Protected from './utils/Protected'
 import DashboardPage from './pages/DashboardPage'
 import MasterGate from './pages/MasterGate'
+import DailyTrafficPage from './pages/DailyTrafficPage'
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Route path='/login' element={<Public><LoginPage /></Public>} />
         <Route path='/' element={<Protected><DashboardPage /></Protected>} />
         <Route path='/master-gate' element={<Protected><MasterGate /></Protected>} />
+        <Route path='/laporan-perhari' element={<Protected><DailyTrafficPage /></Protected>} />
       </Routes>
     </BrowserRouter>
   )
