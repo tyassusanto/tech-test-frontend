@@ -16,7 +16,7 @@
     - Fitur filter tanggal otomatis berdasarkan tanggal pada hari ini ketika halaman pertama kali dibuka, filter tanggal bisa di reset sehingga menampilkan seluruh data tanpa filter tanggal.
     - Untuk fitur export Excel, data yg di download adalah data sesuai pada filter, tanggal yg dipilih, dan juga tab metode pambayaran yg dipilih. 
   
-1. Halaman Master Data Gerbang
+3. Halaman Master Data Gerbang
  - Menampilkan table data gerbang
  - Fitur CRUD data gerbang
  - Fitur search dan pagination
