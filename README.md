@@ -1,6 +1,6 @@
 # Technical Test Frontend React JS
 
-## Halaman dan FItur
+## Halaman dan Fitur
 
 ### Halaman dan FItur
 1. Halaman Login
